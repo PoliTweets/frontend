@@ -68,6 +68,21 @@ h1 {
 	font-size: 1.5em;
 }
 
+.orientationSelector {
+	width: 445px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.orientationSelector img {
+	width: 100%;
+}
+
+.buttonCenterContainer {
+	text-align: center;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -108,7 +123,9 @@ h1 {
 		width: 100%;
 	}
 	
-	
+	.orientationSelector {
+		width: 300px;
+}
 
 }
 
