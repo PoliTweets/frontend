@@ -78,6 +78,21 @@ h1 {
 	font-size: 1.5em;
 }
 
+.orientationSelector {
+	width: 445px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.orientationSelector img {
+	width: 100%;
+}
+
+.buttonCenterContainer {
+	text-align: center;
+}
 
 .content .avatar {
                 float: left;
@@ -142,7 +157,9 @@ h1 {
 		width: 100%;
 	}
 	
-	
+	.orientationSelector {
+		width: 300px;
+}
 
 }
 
