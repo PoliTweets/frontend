@@ -1,15 +1,25 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
 body {
-	padding-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #eee;
 }
+
+footer{
+    background: #000;
+    color: #eee;
+    padding: 20px 0 10px;
+}
+
+
+#tweet .media-object{
+    width: 48px;
+    height: 48p;
+}
+
+
+
+
 
 h1 {
 	margin-bottom: 30px;
